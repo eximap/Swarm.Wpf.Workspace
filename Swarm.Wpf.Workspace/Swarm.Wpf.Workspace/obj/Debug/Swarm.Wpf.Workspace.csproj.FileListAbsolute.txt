@@ -1,0 +1,13 @@
+C:\Users\Пользователь\Documents\GitHub\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\bin\Debug\Swarm.Wpf.Workspace.exe.config
+C:\Users\Пользователь\Documents\GitHub\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\bin\Debug\Swarm.Wpf.Workspace.exe
+C:\Users\Пользователь\Documents\GitHub\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\bin\Debug\Swarm.Wpf.Workspace.pdb
+C:\Users\Пользователь\Documents\GitHub\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\obj\Debug\Swarm.Wpf.Workspace.csprojResolveAssemblyReference.cache
+C:\Users\Пользователь\Documents\GitHub\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\obj\Debug\MainWindow.baml
+C:\Users\Пользователь\Documents\GitHub\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\obj\Debug\MainWindow.g.cs
+C:\Users\Пользователь\Documents\GitHub\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\obj\Debug\App.g.cs
+C:\Users\Пользователь\Documents\GitHub\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\obj\Debug\Swarm.Wpf.Workspace_MarkupCompile.cache
+C:\Users\Пользователь\Documents\GitHub\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\obj\Debug\Swarm.Wpf.Workspace.g.resources
+C:\Users\Пользователь\Documents\GitHub\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\obj\Debug\Swarm.Wpf.Workspace.Properties.Resources.resources
+C:\Users\Пользователь\Documents\GitHub\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\obj\Debug\Swarm.Wpf.Workspace.csproj.GenerateResource.Cache
+C:\Users\Пользователь\Documents\GitHub\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\obj\Debug\Swarm.Wpf.Workspace.exe
+C:\Users\Пользователь\Documents\GitHub\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace\obj\Debug\Swarm.Wpf.Workspace.pdb
