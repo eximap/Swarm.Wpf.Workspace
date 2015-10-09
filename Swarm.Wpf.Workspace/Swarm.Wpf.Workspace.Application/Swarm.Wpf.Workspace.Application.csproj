@@ -113,6 +113,12 @@
   <ItemGroup>
     <Resource Include="App_Readme\Spring.Social.Core.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Swarm.Wpf.Workspace\Swarm.Wpf.Workspace.csproj">
+      <Project>{c69459b8-dc46-4a7d-9ba3-606e8e6e5d44}</Project>
+      <Name>Swarm.Wpf.Workspace</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
