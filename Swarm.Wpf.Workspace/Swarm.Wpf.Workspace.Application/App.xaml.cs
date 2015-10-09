@@ -13,5 +13,6 @@ namespace Swarm.Wpf.Workspace
     /// </summary>
     public partial class App : Application
     {
+        var i = 0;
     }
 }
