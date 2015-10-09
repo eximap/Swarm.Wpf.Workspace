@@ -3,7 +3,7 @@
 namespace Swarm.Wpf.Workspace.Application
 {
     /// <summary>
-    /// Interaction logic for App.xaml
+    ///     Interaction logic for App.xaml
     /// </summary>
     public partial class App : System.Windows.Application
     {
@@ -11,8 +11,6 @@ namespace Swarm.Wpf.Workspace.Application
         {
             UIElement el;
             //Swarm.Wpf.Workspace.DefaultWorkspace w = new DefaultWorkspace();
-            
-
         }
     }
 }

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Swarm.Wpf.Workspace.Properties
+namespace Swarm.Wpf.Workspace.Application.Properties
 {
 
 
