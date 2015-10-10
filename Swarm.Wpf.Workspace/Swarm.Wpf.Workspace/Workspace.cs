@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Windows;
+using System.Windows.Markup;
 
 namespace Swarm.Wpf.Workspace
 {

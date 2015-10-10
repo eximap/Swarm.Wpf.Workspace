@@ -3,15 +3,6 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:Controls="clr-namespace:Swarm.Wpf.Workspace.Controls;assembly=Swarm.Wpf.Workspace"
     x:Class="Swarm.Wpf.Workspace.Application.MainWindow"
-    Title="MainWindow" Height="501.125" Width="903">
-    <TabControl HorizontalAlignment="Left" Height="292" Margin="76,54,0,0" VerticalAlignment="Top" Width="714">
-        <TabItem Header="TabItem">
-            <Grid Background="#FFE5E5E5" />
-        </TabItem>
-        <TabItem Header="TabItem">
-            <Grid Background="#FFE5E5E5">
-                <Controls:TaskManager />
-            </Grid>
-        </TabItem>
-    </TabControl>
+    Title="MainWindow" WindowStyle="ToolWindow">
+    <Controls:TaskManager Margin="0" Height="Auto" Width="Auto"/>
 </Window>

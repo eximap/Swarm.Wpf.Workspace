@@ -8,5 +8,10 @@ namespace Swarm.Wpf.Workspace.Controls
     public partial class TaskManager : UserControl
     {
         public TaskManager() { InitializeComponent(); }
+
+        private void ProgressBar_ValueChanged(object sender, System.Windows.RoutedPropertyChangedEventArgs<double> e)
+        {
+
+        }
     }
 }
