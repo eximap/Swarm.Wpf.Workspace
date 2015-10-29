@@ -44,7 +44,9 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controls\Tasks\Drag.cs" />
+    <Compile Include="Controls\ServiceDesc.xaml.cs">
+      <DependentUpon>ServiceDesc.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Controls\Tasks\ImageTask.xaml.cs">
       <DependentUpon>ImageTask.xaml</DependentUpon>
     </Compile>
@@ -54,15 +56,20 @@
     <Compile Include="Controls\TaskManager.cs">
       <DependentUpon>TaskManager.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WorkspaceResources.Designer.cs">
+    <Compile Include="Controls\Tasks\SdTask.cs" />
+    <Compile Include="Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>WorkspaceResources.resx</DependentUpon>
+      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Workspace.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Controls\ServiceDesc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Controls\Tasks\ImageTask.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -77,16 +84,19 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="WorkspaceResources.resx">
+    <EmbeddedResource Include="Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>WorkspaceResources.Designer.cs</LastGenOutput>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Media.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Media.png" />
+    <ProjectReference Include="..\Swarm.Wpf\Swarm.Wpf.csproj">
+      <Project>{c57fba76-63d0-44cc-8355-204428b23732}</Project>
+      <Name>Swarm.Wpf</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

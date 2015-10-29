@@ -4,5 +4,5 @@
     xmlns:Controls="clr-namespace:Swarm.Wpf.Workspace.Controls;assembly=Swarm.Wpf.Workspace"
     x:Class="Swarm.Wpf.Workspace.Application.MainWindow"
     Title="MainWindow" WindowStyle="ToolWindow">
-    <Controls:TaskManager Margin="0" Height="Auto" Width="Auto"/>
+    <Controls:ServiceDesc x:Name="SD" Margin="0,0,0,0"/>
 </Window>

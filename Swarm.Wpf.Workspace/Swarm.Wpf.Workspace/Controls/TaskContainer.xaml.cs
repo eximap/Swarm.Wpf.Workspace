@@ -1,29 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using Swarm.Wpf.Workspace.Controls.Tasks;
+using Swarm.Wpf.Actions;
 
 namespace Swarm.Wpf.Workspace.Controls
 {
     /// <summary>
-    /// Interaction logic for TaskContainer.xaml
+    ///     Interaction logic for TaskContainer.xaml
     /// </summary>
     public partial class TaskContainer : UserControl
     {
-        [Category("Alignment"), Description("Specifies the alignment of text.")]
-        public IEnumerable<Drag> DragableElements { get; protected set; }
+        [Category("Container"), Description("Tasks container")]
+        public IEnumerable<Panel> MainPanel { get; set; }
 
         public TaskContainer()
         {
@@ -31,9 +21,12 @@ namespace Swarm.Wpf.Workspace.Controls
 
             foreach (FrameworkElement tb in Stack1.Children)
             {
-                new Drag(tb).Between(Stack1, Stack2, Canvas1);
+                var mouseDrag = new MouseDrag(tb);
+                var betweenDrags = new BetweenDrag(mouseDrag, 
+                    new[] { (Panel)Stack1, (Panel)Stack2, (Canvas)Canvas1 });
             }
+
+            MainPanel = new Panel[] { Stack1, Stack2, Canvas1 };
         }
     }
-
 }
